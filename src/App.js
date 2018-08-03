@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.less';
 import {Button} from 'antd';
 
 
@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
 
           <Button type="primary">Button</Button>
-       
+
       </div>
     );
   }
